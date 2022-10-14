@@ -29,7 +29,7 @@ class Calculator {
         return "divide";
         break;
       default:
-        alert("...how?");
+        alert("...how??");
         break;
     }
   }
