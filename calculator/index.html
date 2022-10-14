@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Calculator</title>
-        <script type="text/javascript" src="controller.js"></script>
-        <script type="text/javascript" src="calculator.js"></script>
-        <link rel="stylesheet" type="text/css" href="calculator.css" />
-    </head>
-    <body>
-        <!-- Fill in html here -->
-    </body>
+  <head>
+    <title>Calculator</title>
+    <script type="text/javascript" src="controller.js"></script>
+    <script type="text/javascript" src="calculator.js"></script>
+    <link rel="stylesheet" type="text/css" href="calculator.css" />
+  </head>
+  <body>
+    <div id="main_container">
+      <div id="text_container">
+        <div id="text_input1">
+          <p>first number</p>
+          <input id="number_one" />
+        </div>
+
+        <div id="text_input2">
+          <p>second number</p>
+          <input id="number_two" />
+        </div>
+      </div>
+      <div id="radio_container">
+        <div id="radio_buttons">
+          <input type="radio" name="math" value="add" />
+          <label for="add">Add</label>
+
+          <input type="radio" name="math" value="subtract" />
+          <label for="subtract">Subtract</label>
+
+          <input type="radio" name="math" value="multiply" />
+          <label for="multiply">Multiply</label>
+
+          <input type="radio" name="math" value="divide" />
+          <label for="divide">Divide</label>
+        </div>
+      </div>
+
+      <div id="buttons">
+        <div id="equals_sect">
+          <button id="equals" onclick="calculate()">=</button>
+        </div>
+        <div id="clear_sect">
+          <button id="clear" onclick="clearValues()" {}>Clear</button>
+        </div>
+      </div>
+
+      <div id="results">
+        <h1 id="result_text">
+          Hello! Please enter two numbers, select the operator, then hit the =
+          button.
+        </h1>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,1 +1,91 @@
 /* fill in styling here */
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+#h1{
+    text-align: center;
+}
+
+#main_container{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#text_container{
+    display: flex;
+    padding-top: 20%;
+}
+
+#text_input1{
+    margin: auto;
+    margin-left: 38.5%;
+}
+
+#text_input2{
+    margin: auto;
+    margin-right: 38.5%;
+}
+
+#number_one{
+    width: 200px;
+}
+
+#number_two{
+    width: 200px;
+}
+
+#radio_buttons{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    width: 10%;
+}
+
+#equals{
+    background-color: blue;
+    color: white;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 22px;
+    
+}
+
+#clear{
+    display: block;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#results{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
