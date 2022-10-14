@@ -58,17 +58,17 @@ class Calculator {
 
   // perform addition operation
   add() {
-    this.value = this.firstNumber + this.secondNumber;
+    this.value = parseInt(this.firstNumber) + parseInt(this.secondNumber);
   }
 
   // perform subtraction operation
   subtract() {
-    value = this.firstNumber - this.secondNumber;
+    this.value = parseInt(this.firstNumber) - parseInt(this.secondNumber);
   }
 
   // perform multiplication operation
   multiply() {
-    this.value = this.firstNumber * this.secondNumber;
+    this.value = parseInt(this.firstNumber) * parseInt(this.secondNumber);
   }
 
   // perform divide operation
@@ -76,7 +76,7 @@ class Calculator {
     if (this.secondNumber == 0) {
       this.attemptedDivideByZero = true;
       alert("Attempting to divide by 0. Operation aborted.");
-    } else this.value = this.firstNumber / this.secondNumber;
+    } else this.value = parseInt(this.firstNumber) / parseInt(this.secondNumber);
   }
 }
 
